@@ -1,0 +1,2 @@
+# private-sns_trade_manager
+SNSでの個人間取引を管理するデスクトップアプリ
