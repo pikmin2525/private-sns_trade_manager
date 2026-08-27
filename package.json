@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/pikmin2525/private-sns_trade_manager#readme",
   "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^26.4.0",
     "electron": "^44.0.0",
     "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
   }
 }

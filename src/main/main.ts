@@ -1,5 +1,6 @@
 import { app, BrowserWindow } from "electron";
 import path from "node:path";
+import "../database/database.js";
 
 const createWindow = () => {
   const window = new BrowserWindow({
