@@ -1,4 +1,5 @@
 import { app, BrowserWindow } from "electron";
+import path from "node:path";
 
 const createWindow = () => {
   const window = new BrowserWindow({
@@ -6,7 +7,9 @@ const createWindow = () => {
     height: 600,
   });
 
-  window.loadURL("https://example.com");
+  window.loadFile(
+    path.join(app.getAppPath(), "src", "renderer", "index.html")
+  );
 };
 
 app.whenReady().then(createWindow);
