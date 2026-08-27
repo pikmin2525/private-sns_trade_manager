@@ -13,7 +13,6 @@ export const socialServicesList = [
     },
 ];
 
-
 type contentsList = {
     content_name: string;
 };
